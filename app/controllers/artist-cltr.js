@@ -2,6 +2,7 @@ import Artist from '../models/Artist-model.js'
 import bcryptjs from 'bcryptjs'
 import jwt from 'jsonwebtoken'
 import { validationResult} from 'express-validator'
+
 const artistCltr = {}
 
 artistCltr.register=async(req,res)=>{
